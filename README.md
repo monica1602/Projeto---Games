@@ -1,18 +1,21 @@
 # Projeto Análise de Dados Games
 
 ## Descrição do Projeto
-O projeto é sobre uma loja online, ICE, que vende videogames no mundo todo. A avaliações de usuários e especialistas, genêros, plataformas e dados históricos sobre vendas de jogos estão disponíveis em fontes abertas. O objetivo do projeto é identificar padrões que determinam se um jogo tem sucesso ou não. Isso permitiu identificar potenciais grandes vencedores e planejar campanhas publicitárias. 
-Os dados disponíveis remontam a 2016. Vamos imaginar que estamos em dezembro de 2016 e precisamos planejar uma campanha para 2017.
-O conjunto de dados contém  uma coluna de "rating" (classificação) que armazena a classificação ESRB de cada jogo. O Entertainment Software Rating Board avalia o contéudo de um jogo e atribui uma classificação etária, como Teen (adolescente) ou Mature (adulto).
+Este projeto envolve a análise de dados históricos de vendas de jogos da loja online ICE, especializada na venda de videogames globalmente. O objetivo principal é identificar padrões de sucesso nos jogos, utilizando informações como avaliações de usuários e especialistas, gêneros, plataformas e dados de vendas passadas, para prever quais jogos têm maior potencial de sucesso.
+O projeto considera dados de 2016 e visa ajudar a loja a planejar campanhas publicitárias eficazes para o ano de 2017. Um dos atributos importantes nos dados é a classificação ESRB (Entertainment Software Rating Board), que atribui uma classificação etária aos jogos, como "Teen" (adolescente) ou "Mature" (adulto), influenciando o público-alvo e as estratégias de marketing.
+O processo envolverá a análise dos dados para determinar fatores que podem indicar o sucesso de um jogo, como gênero, plataforma, avaliações e a relação entre essas variáveis.
 
 ## As tarefas são:
-- Preparação dos dados
-- Modificação dos dados quando necessário: tipos de daos, nome de coluna, valores ausentes, valores duplicados
-- Análise de dados: jogos lançados em anos diferentes, vendas por plataformas, quais dados são relevantes
-- Criação de um perfil para cada região
+- Preparação dos dados: Consiste no processo de organização e limpeza dos dados antes de serem analisados, garantindo que estejam em um formato adequado para análise e modelagem. Isso inclui a remoção de valores ausentes, correção de tipos de dados e ajustes nos nomes das colunas.
+- Modificação dos dados quando necessário: Ajustes nas colunas para garantir que os dados estejam corretos, como a conversão de tipos de dados (por exemplo, de string para numérico), padronização de nomes de colunas e tratamento de valores ausentes ou duplicados, para evitar distorções na análise.
+- Análise de dados:
+  - Analisar jogos lançados em anos diferentes para identificar tendências de vendas ao longo do tempo.
+  - Estudar vendas por plataformas para entender quais são as mais populares e rentáveis.
+  - Determinar quais dados são relevantes para o sucesso de um jogo, como gênero, plataforma, e a relação com a classificação ESRB.
+  - Criação de um perfil para cada região: Analisar as preferências e comportamentos de compra por região, considerando fatores como popularidade de determinados jogos, gêneros preferidos e plataformas predominantes.
 - Conferir as hipóteses:
-  - Hipótese 1: as classificações médias de usuários para as plataformas XBox One e PC são as mesmas
-  - Hipótese 2: as classificações médias de usuários para os gêneros Ação e Esportes são diferentes
+  - Hipótese 1: As classificações médias de usuários para as plataformas Xbox One e PC são as mesmas. Para testar essa hipótese, pode-se realizar um teste de hipóteses comparando as médias das avaliações dos usuários para ambas as plataformas.
+  - Hipótese 2: As classificações médias de usuários para os gêneros Ação e Esportes são diferentes. Um teste de hipótese será conduzido para verificar se há uma diferença estatisticamente significativa entre as classificações médias desses gêneros.
 
  ## Dicionário de dados
  - games.csv: dados sobre jogos
@@ -29,15 +32,15 @@ O conjunto de dados contém  uma coluna de "rating" (classificação) que armaze
    - 'Classificação: ESRB (Entertainment Software Rating Board)
 
   ## Ferramentas e Bibliotecas utilziadas
-  - Pyhton: Linguagem principal utilizada para análise
-  - Pandas: Biblioteca para manipulação e análise de dados
-  - Matplotlib: Biblioteca para gerar gráficos
-  - Numpy: Biblioteca que permite trabalhar com objetos multidimensionais, como matrizes e sequências
-  - Math: Biblioteca que permite usar funções matemáticas
-  - Seaborn: Biblioteca de visualização de dados baseada no Matplotlib
-  - Scipy: Biblioteca que fornece uma manipulação conveniente e rápido de um array N-dimensional
-  - Ploty.express: Biblioteca que permite criar visualizações rápidas e eficientes
-  - Datetime: Biblioteca para manipulação de datas e horas
+- Python: Linguagem principal utilizada para análise de dados, com uma vasta gama de bibliotecas e recursos que permitem realizar manipulação, visualização e modelagem de dados de maneira eficiente.
+- Pandas: Biblioteca fundamental para manipulação e análise de dados, proporcionando estruturas de dados flexíveis como o DataFrame, essenciais para o tratamento de grandes volumes de dados.
+- Matplotlib: Biblioteca poderosa para geração de gráficos estáticos, oferecendo uma ampla gama de opções para criação de visualizações customizáveis.
+- Numpy: Biblioteca que permite trabalhar com objetos multidimensionais, como matrizes e arrays, facilitando o processamento de dados numéricos e operações vetoriais.
+- Math: Biblioteca que oferece funções matemáticas básicas, como operações de álgebra e trigonometria, essenciais para realizar cálculos e análises numéricas.
+- Seaborn: Biblioteca de visualização de dados baseada no Matplotlib, especializada em gráficos estatísticos mais sofisticados e com uma interface mais amigável, ideal para análise exploratória de dados.
+- Scipy: Biblioteca que fornece ferramentas avançadas para análise e manipulação de arrays N-dimensionais, oferecendo funções matemáticas, estatísticas e de álgebra linear.
+- Plotly Express: Biblioteca para criação de visualizações rápidas, interativas e eficientes, que permite explorar os dados de forma dinâmica com gráficos de alta qualidade.
+- Datetime: Biblioteca especializada no manejo de datas e horas, facilitando a conversão, manipulação e análise temporal dentro dos conjuntos de dados.
 
 ## Imagens
 
@@ -102,35 +105,35 @@ O conjunto de dados contém  uma coluna de "rating" (classificação) que armaze
 <img src="https://github.com/user-attachments/assets/9609fbbc-a7cc-4b9a-ba6d-1399c33f8aa4" alt="Projeto 6" width="200"/>
 
 ## Resultados 
-- Muitos jogos recebem uma segunda edição
-- Need for Speed Most Wanted, um jogo do gênero de corrida, liderou em termos de lançamentos em várias plataformas
-- As plataformas PS2 e DS receberam a maioria dos jogos
-- Os dados abrangem entre 1980 e 2016, com um pico de lançamentos em 2010
-- Jogos dos gêneros Action e Sports receberam mais lançamentos
-- Em termos de preferências de gêneros e plataformas, foi possível observar grandes diferenças entre os mercados da América do Norte, Japão e Europa
-- A preferência do mercado japônes é por plataformas portáteis
-- Os gêneros de Puzzle e Strategy são os menos lucrativos
-- É possível observar o impacto das avaliações profissionais nas vendas
-- Nem todas as regiões classificam jogos por faixa etária ou têm o hábito de avaliá-los
-- As avaliações mais altas dados por profissionais são para jogos dos gêneros Shooter e Racing
-- Houve um aumento grande no lançamento de jogos a partir de 1995
-- Existe uma variação nas vendas totais entre as plataformas, necessitando com isso de uma estratégia personalizada para cada mercado
-- Através do teste da hipótese 1, foi possível ver que as classificações médias dos usuários e as plataformas indicadas não são iguais
-- Através do teste de hipótese 2, foi possível ver que as classificações médias dos usuários e os gêneros indicados não são diferentes
+- Edições de jogos: Muitos jogos recebem uma segunda edição, indicando uma tendência de continuidade e popularidade, além de um possível aumento de vendas com o lançamento de versões subsequentes.
+- Need for Speed Most Wanted: Esse jogo, do gênero corrida, se destacou por liderar os lançamentos em várias plataformas, mostrando que a franquia foi um grande sucesso em diversos mercados.
+- Plataformas PS2 e DS: Estas plataformas receberam a maior quantidade de jogos, indicando que foram as mais populares durante um período considerável de tempo.
+- Período de lançamentos (1980-2016): A análise dos dados mostra um pico de lançamentos em 2010, sugerindo um momento de grande atividade na indústria de videogames.
+- Gêneros mais populares: Action e Sports foram os gêneros mais lançados, refletindo uma forte preferência do público por esses tipos de jogos.
+- Diferenças de preferências entre mercados: Observou-se grandes diferenças nas preferências de gêneros e plataformas entre as regiões da América do Norte, Japão e Europa, o que demanda estratégias personalizadas de marketing e lançamento.
+- Mercado japonês: A preferência do mercado japonês recai sobre plataformas portáteis, o que é uma característica distinta em relação a outros mercados.
+- Gêneros menos lucrativos: Puzzle e Strategy foram identificados como os gêneros com menor rentabilidade, sugerindo que jogos desses tipos não atraem tantos consumidores quanto outros gêneros.
+- Impacto das avaliações profissionais nas vendas: É possível observar que as avaliações dos críticos têm um impacto direto nas vendas dos jogos, com jogos bem avaliados obtendo um desempenho superior no mercado.
+- Classificação por faixa etária: Nem todas as regiões possuem o hábito de classificar jogos por faixa etária ou de fornecer avaliações profissionais, o que pode afetar o comportamento de compra e a estratégia de marketing para jogos.
+- Gêneros mais bem avaliados: Shooter e Racing foram os gêneros com as avaliações mais altas por parte dos críticos, indicando um maior reconhecimento e aprovação desses tipos de jogos.
+- Aumento de lançamentos após 1995: A partir de 1995, houve um aumento considerável no número de lançamentos de jogos, o que pode ser associado ao crescimento e popularização dos videogames.
+- Variação nas vendas por plataforma: As vendas totais de jogos variam significativamente entre plataformas, o que demanda uma estratégia personalizada de marketing para cada mercado.
+- Teste de hipótese 1: O teste de hipótese 1 indicou que as classificações médias dos usuários para plataformas como Xbox One e PC são diferentes, sugerindo que as preferências variam de acordo com a plataforma.
+- Teste de hipótese 2: O teste de hipótese 2 revelou que as classificações médias para os gêneros Ação e Esportes não apresentam diferenças significativas, indicando que, em termos de avaliação de usuários, esses gêneros são igualmente apreciados.
 
 ## Aprendizados
-- Análise de dados
-- Qualidade dos dados
-- Tratar os dados modificando o tipo de dados, nome das colunas, valores ausentes, valores duplciados
-- Pré-processamento de dados
-- Contrução e análise de dados
-- Análise de hipóteses
+- Análise de dados: Envolve a inspeção detalhada dos dados coletados para entender padrões, tendências e características importantes, além de realizar a exploração inicial para detectar insights relevantes.
+- Qualidade dos dados: Refere-se à avaliação e melhoria da precisão, consistência, completude e confiabilidade dos dados, garantindo que as informações estejam aptas para análise.
+- Tratamento dos dados: Inclui a modificação do tipo de dados, alteração de nomes de colunas, e a limpeza de valores ausentes ou duplicados para assegurar a integridade do conjunto de dados.
+- Pré-processamento de dados: Envolve a preparação dos dados para análise, como a transformação de dados brutos em formatos utilizáveis, normalização, padronização e outras etapas necessárias para o uso eficaz das informações.
+- Construção e análise de dados: Consiste na criação de modelos, visualizações e gráficos para interpretar e representar as informações, facilitando a identificação de padrões e insights.
+- Análise de hipóteses: Envolve a formulação de hipóteses de pesquisa, seguida pela realização de testes estatísticos para determinar se há evidências suficientes para apoiar ou refutar essas hipóteses.
 
 ## Contexto real
-- Novas lojas online
-- Lojas físicas qie desejam criar lojas online
-- Lojas online que desejam entender melhor o comportamento de seus usuários
-- Empresas que desejam entender as vendas de seus produtos em diferentes anos e/ou região
+- Novas lojas online: Para entender o comportamento de consumo e como as campanhas publicitárias podem ser ajustadas de acordo com o perfil do cliente.
+- Lojas físicas que desejam criar lojas online: Para identificar padrões de sucesso e adaptar estratégias de vendas e marketing para o mundo digital.
+- Lojas online que desejam entender melhor o comportamento de seus usuários: A análise pode ajudar a mapear os gostos dos clientes, ajustar ofertas e otimizar a experiência de compra.
+- Empresas que desejam entender as vendas de seus produtos em diferentes anos e/ou regiões: A análise histórica dos dados pode fornecer insights sobre tendências sazonais e regionais, permitindo a personalização da oferta de produtos.
   
 ## Como executar o Projeto
 - Clone o repositório
