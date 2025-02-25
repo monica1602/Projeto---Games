@@ -1,4 +1,4 @@
-# Projeto Análise de Dados Games
+# Projeto Análise de Dados - Games
 
 ## Descrição do Projeto
 Este projeto envolve a análise de dados históricos de vendas de jogos da loja online ICE, especializada na venda de videogames globalmente. O objetivo principal é identificar padrões de sucesso nos jogos, utilizando informações como avaliações de usuários e especialistas, gêneros, plataformas e dados de vendas passadas, para prever quais jogos têm maior potencial de sucesso.
@@ -35,74 +35,74 @@ O processo envolverá a análise dos dados para determinar fatores que podem ind
 - Python: Linguagem principal utilizada para análise de dados, com uma vasta gama de bibliotecas e recursos que permitem realizar manipulação, visualização e modelagem de dados de maneira eficiente.
 - Pandas: Biblioteca fundamental para manipulação e análise de dados, proporcionando estruturas de dados flexíveis como o DataFrame, essenciais para o tratamento de grandes volumes de dados.
 - Matplotlib: Biblioteca poderosa para geração de gráficos estáticos, oferecendo uma ampla gama de opções para criação de visualizações customizáveis.
-- Numpy: Biblioteca que permite trabalhar com objetos multidimensionais, como matrizes e arrays, facilitando o processamento de dados numéricos e operações vetoriais.
+- NumPy: Biblioteca que simplifica o manuseio de vetores e matrizes, acelerando cálculos matemáticos e estatísticos nos dados.
 - Math: Biblioteca que oferece funções matemáticas básicas, como operações de álgebra e trigonometria, essenciais para realizar cálculos e análises numéricas.
 - Seaborn: Biblioteca de visualização de dados baseada no Matplotlib, especializada em gráficos estatísticos mais sofisticados e com uma interface mais amigável, ideal para análise exploratória de dados.
-- Scipy: Biblioteca que fornece ferramentas avançadas para análise e manipulação de arrays N-dimensionais, oferecendo funções matemáticas, estatísticas e de álgebra linear.
+- SciPy: Biblioteca que disponibiliza recursos avançados para análise e processamento de matrizes N-dimensionais, incluindo funções matemáticas, estatísticas e de álgebra linear.
 - Plotly Express: Biblioteca para criação de visualizações rápidas, interativas e eficientes, que permite explorar os dados de forma dinâmica com gráficos de alta qualidade.
-- Datetime: Biblioteca especializada no manejo de datas e horas, facilitando a conversão, manipulação e análise temporal dentro dos conjuntos de dados.
+- Datetime: Biblioteca especializada no tratamento de datas e horários, permitindo a conversão, edição e análise temporal em conjuntos de dados.
 
 ## Imagens
 
 ### Tabela de dados
-<img src="https://github.com/user-attachments/assets/97eae905-e07e-482d-8491-c041ddaaf2d6" alt="Projeto 6" width="200"/>
+<img src="https://github.com/user-attachments/assets/97eae905-e07e-482d-8491-c041ddaaf2d6" alt="Projeto 6" width="1000"/>
 
-### Quantidade de jogos lançados por ano
-<img src="https://github.com/user-attachments/assets/0a3ef072-cdc1-4cbb-8de4-032600f20cf4" alt="Projeto 6" width="200"/>
+### Gráfico - Quantidade de jogos lançados por ano
+<img src="https://github.com/user-attachments/assets/0a3ef072-cdc1-4cbb-8de4-032600f20cf4" alt="Projeto 6" width="800"/>
 
-### Quantidade de jogos por plataforma
+### Gráfico - Quantidade de jogos por plataforma
 <img src="https://github.com/user-attachments/assets/0232cce5-ca70-4ce5-a48e-cb425444832e" alt="Projeto 6" wodth="200"/>
 
-### Quantidade de vendas por ano por plataforma (3DS)
-<img src="https://github.com/user-attachments/assets/b3c62f48-26f9-462f-aa41-93489742cf33" alt="Projeto 6" width="200"/>
+### Gráfico - Quantidade de vendas por ano por plataforma (3DS)
+<img src="https://github.com/user-attachments/assets/b3c62f48-26f9-462f-aa41-93489742cf33" alt="Projeto 6" width="800"/>
 
-### Quantidade de vendas por ano por plataforma (DS)
-<img src="https://github.com/user-attachments/assets/f52f5947-4d20-4079-8921-4e0f4e5a5401" alt="Projeto 6" width="200"/>
+### Gráfico - Quantidade de vendas por ano por plataforma (DS)
+<img src="https://github.com/user-attachments/assets/f52f5947-4d20-4079-8921-4e0f4e5a5401" alt="Projeto 6" width="800"/>
 
-### Quantidade de vendas por ano por plataforma (PC)
-<img src="https://github.com/user-attachments/assets/2453305c-aec9-46c5-9466-9ecd2c03df53" alt="Projeto 6" width="200"/>
+### Gráfico - Quantidade de vendas por ano por plataforma (PC)
+<img src="https://github.com/user-attachments/assets/2453305c-aec9-46c5-9466-9ecd2c03df53" alt="Projeto 6" width="800"/>
 
-### Quantidade de vendas por ano por plataforma (PS3)
-<img src="https://github.com/user-attachments/assets/b434a358-f873-415d-9ff5-734ca94bd6b2" alt="Projeto 6" width="200"/>
+### Gráfico - Quantidade de vendas por ano por plataforma (PS3)
+<img src="https://github.com/user-attachments/assets/b434a358-f873-415d-9ff5-734ca94bd6b2" alt="Projeto 6" width="800"/>
 
-### Quantidade de vendas por ano por plataforma (PS4)
-<img src="https://github.com/user-attachments/assets/61432a3e-f763-4a8d-a72b-ff906f4237ac" alt="Projeto 6" width="200"/>
+### Gráfico - Quantidade de vendas por ano por plataforma (PS4)
+<img src="https://github.com/user-attachments/assets/61432a3e-f763-4a8d-a72b-ff906f4237ac" alt="Projeto 6" width="800"/>
 
-### Quantidade de vendas por ano por plataforma (PSP)
-<img src="https://github.com/user-attachments/assets/f6fb8ac8-3ba9-42a7-9eb8-335cdfda2332" alt="Projeto 6" width="200"/>
+### Gráfico - Quantidade de vendas por ano por plataforma (PSP)
+<img src="https://github.com/user-attachments/assets/f6fb8ac8-3ba9-42a7-9eb8-335cdfda2332" alt="Projeto 6" width="800"/>
 
-### Quantidade de vendas por ano po plataforma (PSV)
-<img src="https://github.com/user-attachments/assets/50e58f5d-deb5-4b27-b4fe-f2ad687be290" alt="Projeto 6" width="200"/>
+### Gráfico - Quantidade de vendas por ano po plataforma (PSV)
+<img src="https://github.com/user-attachments/assets/50e58f5d-deb5-4b27-b4fe-f2ad687be290" alt="Projeto 6" width="800"/>
 
-### Quantidade de vendas por ano por plataforma (Wii)
-<img src="https://github.com/user-attachments/assets/e37e5bae-7404-4c3a-bd5c-13464017c709" alt="Projeto 6" width="200"/>
+### Gráfico - Quantidade de vendas por ano por plataforma (Wii)
+<img src="https://github.com/user-attachments/assets/e37e5bae-7404-4c3a-bd5c-13464017c709" alt="Projeto 6" width="800"/>
 
-### Quantidade de vendas por ano por plataforma (WiiU)
-<img src="https://github.com/user-attachments/assets/1c291d62-8b39-43ba-a33b-32f84e24e99f" alt="Projeto 6" width="200"/>
+### Gráfico - Quantidade de vendas por ano por plataforma (WiiU)
+<img src="https://github.com/user-attachments/assets/1c291d62-8b39-43ba-a33b-32f84e24e99f" alt="Projeto 6" width="800"/>
 
-### Quantidade de vendas por ano por plataforma (X360)
-<img src="https://github.com/user-attachments/assets/dd45101b-c4e4-46cf-92c5-ca7571326f6a" alt="Projeto 6" width="200"/>
+### Gráfico - Quantidade de vendas por ano por plataforma (X360)
+<img src="https://github.com/user-attachments/assets/dd45101b-c4e4-46cf-92c5-ca7571326f6a" alt="Projeto 6" width="800"/>
 
-### Quantidade de vendas por ano por plataforma (XOne)
-<img src="https://github.com/user-attachments/assets/92b243e6-ac4f-4c6b-8352-4a631cf27c60" alt="Projeto 6" width="200"/>
+### Gráfico - Quantidade de vendas por ano por plataforma (XOne)
+<img src="https://github.com/user-attachments/assets/92b243e6-ac4f-4c6b-8352-4a631cf27c60" alt="Projeto 6" width="800"/>
 
-### Diagrama de caixa das vendas globais de jogos por plataforma e total de vendas
-<img src="https://github.com/user-attachments/assets/895072f9-fa63-490a-94d8-96c20dac0757" alt="Projeto 6" width="200"/>
+### Gráfico - Diagrama de caixa das vendas globais de jogos por plataforma e total de vendas
+<img src="https://github.com/user-attachments/assets/895072f9-fa63-490a-94d8-96c20dac0757" alt="Projeto 6" width="800"/>
 
-### Perfil por plataforma (NA)
-<img src="https://github.com/user-attachments/assets/468b31a3-d5f0-4446-a094-b7eb4a3f7ecb" alt="Projeto 6" width="200"/>
+### Código - Perfil por plataforma (NA)
+<img src="https://github.com/user-attachments/assets/468b31a3-d5f0-4446-a094-b7eb4a3f7ecb" alt="Projeto 6" width="1000"/>
 
-### Perfil por plataforma (EU)
-<img src="https://github.com/user-attachments/assets/462a55b7-2c70-40e7-8846-b06e871896d7" alt="Projeto 6" width="200"/>
+### Código - Perfil por plataforma (EU)
+<img src="https://github.com/user-attachments/assets/462a55b7-2c70-40e7-8846-b06e871896d7" alt="Projeto 6" width="1000"/>
 
-### Perfil por plataforma (JP)
-<img src="https://github.com/user-attachments/assets/954fee45-1985-409d-9cdb-49a1f77dcc90" alt="Projeto 6" width="200"/>
+### Código - Perfil por plataforma (JP)
+<img src="https://github.com/user-attachments/assets/954fee45-1985-409d-9cdb-49a1f77dcc90" alt="Projeto 6" width="1000"/>
 
-### Hipótese 1
-<img src="https://github.com/user-attachments/assets/7eb5a1e5-53fa-4999-9e46-40bc55510a1a" alt="Projeto 6" width="200"/>
+### Código - Hipótese 1
+<img src="https://github.com/user-attachments/assets/7eb5a1e5-53fa-4999-9e46-40bc55510a1a" alt="Projeto 6" width="1000"/>
 
-### Hipótese 2
-<img src="https://github.com/user-attachments/assets/9609fbbc-a7cc-4b9a-ba6d-1399c33f8aa4" alt="Projeto 6" width="200"/>
+### Código - Hipótese 2
+<img src="https://github.com/user-attachments/assets/9609fbbc-a7cc-4b9a-ba6d-1399c33f8aa4" alt="Projeto 6" width="1000"/>
 
 ## Resultados 
 - Edições de jogos: Muitos jogos recebem uma segunda edição, indicando uma tendência de continuidade e popularidade, além de um possível aumento de vendas com o lançamento de versões subsequentes.
@@ -126,14 +126,14 @@ O processo envolverá a análise dos dados para determinar fatores que podem ind
 - Qualidade dos dados: Refere-se à avaliação e melhoria da precisão, consistência, completude e confiabilidade dos dados, garantindo que as informações estejam aptas para análise.
 - Tratamento dos dados: Inclui a modificação do tipo de dados, alteração de nomes de colunas, e a limpeza de valores ausentes ou duplicados para assegurar a integridade do conjunto de dados.
 - Pré-processamento de dados: Envolve a preparação dos dados para análise, como a transformação de dados brutos em formatos utilizáveis, normalização, padronização e outras etapas necessárias para o uso eficaz das informações.
-- Construção e análise de dados: Consiste na criação de modelos, visualizações e gráficos para interpretar e representar as informações, facilitando a identificação de padrões e insights.
+- Construção e análise de dados: Envolve a criação de modelos, visualizações e gráficos para compreender e representar as informações, auxiliando na descoberta de padrões e percepções.
 - Análise de hipóteses: Envolve a formulação de hipóteses de pesquisa, seguida pela realização de testes estatísticos para determinar se há evidências suficientes para apoiar ou refutar essas hipóteses.
 
 ## Contexto real
 - Novas lojas online: Para entender o comportamento de consumo e como as campanhas publicitárias podem ser ajustadas de acordo com o perfil do cliente.
 - Lojas físicas que desejam criar lojas online: Para identificar padrões de sucesso e adaptar estratégias de vendas e marketing para o mundo digital.
 - Lojas online que desejam entender melhor o comportamento de seus usuários: A análise pode ajudar a mapear os gostos dos clientes, ajustar ofertas e otimizar a experiência de compra.
-- Empresas que desejam entender as vendas de seus produtos em diferentes anos e/ou regiões: A análise histórica dos dados pode fornecer insights sobre tendências sazonais e regionais, permitindo a personalização da oferta de produtos.
+- Empresas que buscam compreender as vendas de seus produtos ao longo dos anos e em diferentes regiões: A análise histórica dos dados pode revelar tendências sazonais e regionais, possibilitando a adaptação estratégica da oferta de produtos.
   
 ## Como executar o Projeto
 - Clone o repositório
